@@ -30,7 +30,7 @@ export const Portfolio = () => {
   const [userAddress, setUserAddress] = useState(
     "0x77A89C51f106D6cD547542a3A83FE73cB4459135"
   );
-  const mobula = new Mobula();
+  const mobula = new Mobula("YOUR_API_KEY");
 
   const fetchData = () => {
     if (userAddress) {
